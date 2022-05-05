@@ -115,6 +115,11 @@ def get_form_status():
       return {"ready": True}
   return {"ready": False}
 
+
+@app.route('/track_auth')
+def track_auth():
+  return render_template('track_auth.html')
+
 def writeToLocalConfigFile():
 
   fo = open("hcp_credentials", "w")

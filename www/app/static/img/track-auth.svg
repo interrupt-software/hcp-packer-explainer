@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800px" height="420px" viewBox="0 0 800 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800px" height="416px" viewBox="0 0 800 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>track_auth</title>
     <defs>
         <linearGradient x1="50%" y1="7.61809716%" x2="50%" y2="100%" id="linearGradient-1">
@@ -126,13 +126,13 @@
             <tspan x="425.197896" y="196.8">Policy</tspan>
         </text>
         <text id="iteration" font-family="Arial-BoldMT, Arial" font-size="9" font-weight="bold" letter-spacing="-0.018" fill="#1D1F25">
-            <tspan x="637.929291" y="83">iteration</tspan>
+            <tspan x="638.329291" y="82">iteration</tspan>
         </text>
         <text id="channel" font-family="Arial-BoldMT, Arial" font-size="9" font-weight="bold" letter-spacing="-0.018" fill="#1D1F25">
-            <tspan x="638.658361" y="146">channel</tspan>
+            <tspan x="639.058361" y="146">channel</tspan>
         </text>
         <text id="workspace" font-family="Arial-BoldMT, Arial" font-size="9" font-weight="bold" letter-spacing="-0.018" fill="#1D1F25">
-            <tspan x="632.418549" y="291">workspace</tspan>
+            <tspan x="632.818549" y="291">workspace</tspan>
         </text>
         <text id="TFC-Token" font-family="Arial-BoldMT, Arial" font-size="9" font-weight="bold" letter-spacing="-0.018" fill="#1D1F25">
             <tspan x="54.4" y="388.8">TFC Token</tspan>
@@ -148,7 +148,7 @@
             <tspan x="756.966385" y="223">run task</tspan>
         </text>
         <text id="run" font-family="Arial-BoldMT, Arial" font-size="9" font-weight="bold" letter-spacing="-0.018" fill="#1D1F25">
-            <tspan x="648.378221" y="355">run</tspan>
+            <tspan x="648.778221" y="355">run</tspan>
         </text>
         <text id="AMI" font-family="Arial-BoldMT, Arial" font-size="9" font-weight="bold" letter-spacing="-0.018" fill="#1D1F25">
             <tspan x="353.378465" y="312">AMI</tspan>

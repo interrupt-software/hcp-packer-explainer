@@ -115,7 +115,6 @@ def get_form_status():
       return {"ready": True}
   return {"ready": False}
 
-
 @app.route('/track_auth')
 def track_auth():
   return render_template('track_auth.html')
@@ -145,3 +144,12 @@ def getHCPBearerToken():
   response = requests.post(url, json = data, auth = auth, headers = headers)
 
   return response
+
+
+@app.route('/uc-01-challenge')
+def uc_01_challenge():
+  return render_template('uc-01-challenge.html')
+
+@app.route('/uc-01-example')
+def uc_01_example():
+  return render_template('uc-01-example.html')

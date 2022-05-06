@@ -20,6 +20,9 @@
     --brand-text-on-primary: var(--white);
     --brand-gradient: linear-gradient(50.7deg, #63d0ff 0%, #844fba 100%);
 
+    --accent-gradient-start: #844fba;
+    --accent-gradient-end: #d1ebff;
+    --base-color-border: #dbdbdc;
     /* Custom box styling */
 
     --pretty-box-border: 10px 10px 0 0;
@@ -248,10 +251,7 @@ a {
     animation-delay: calc(var(--splash-delay) * 100ms);
 }
 
-
 .styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
     font-size: 18px;
     font-family: sans-serif;
     min-width: 600px;
@@ -260,11 +260,15 @@ a {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     animation: fadeInUp 3s ease forwards;
     animation-delay: calc(var(--splash-delay) * 100ms);
+    border-width: 5px 0 0 0;
+    border-image: linear-gradient(90deg,
+            var(--accent-gradient-start) 40%,
+            var(--accent-gradient-end) 90%);
+    border-image-slice: 9;
+    border-style: solid;
 }
 
-.styled-table thead tr {
-    background-color: #009879;
-    color: #ffffff;
+.styled-table tbody tr {
     text-align: left;
 }
 
@@ -272,12 +276,4 @@ a {
 .styled-table td {
     padding: 20px;
     vertical-align: top;
-}
-
-.styled-table tbody th {
-    border-top: 2px solid #009879;
-}
-
-.styled-table tbody tr {
-    border-bottom: thin solid #eeeeee;
 }

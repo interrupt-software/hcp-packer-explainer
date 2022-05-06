@@ -173,3 +173,19 @@ def uc_01_section_03():
 @app.route('/uc-01-summary')
 def uc_01_summary():
   return render_template('uc-01-summary.html')
+
+@app.route('/uc-02-challenge')
+def uc_02_challenge():
+  return render_template('uc-02-challenge.html')
+
+@app.route('/uc-02-description')
+def uc_02_description():
+  return render_template('uc-02-description.html')
+
+@app.route('/uc-02-workflow')
+def uc_02_workflow():
+  return render_template('uc-02-workflow.html')
+
+@app.route('/uc-02-summary')
+def uc_02_summary():
+  return render_template('uc-02-summary.html')

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{{ super() }}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/happy-bird-style.css') }}">
+<script src="{{ url_for('static', filename='/js/svg-load.js') }}"></script>
+{% endblock %}
+
+{% block main_body %}
+
+<div class="main-wrapper">
+    <div class="svg-diagram" id="svg-diagram">
+    </div>
+</div>
+
+{% endblock %}
+
+{% block last_page %}
+<a href="{{ url_for('uc_03_challenge') }}">
+    <img src="{{ url_for('static', filename='img/left-arrow.svg') }}" alt="Last">
+</a>
+{% endblock %}
+
+
+{% block next_page %}
+<a href="{{ url_for('uc_03_workflow') }}">
+    <img src="{{ url_for('static', filename='img/right-arrow.svg') }}" alt="Next">
+</a>
+{% endblock %}

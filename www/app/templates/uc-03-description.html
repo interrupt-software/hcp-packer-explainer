@@ -2,18 +2,27 @@
 
 {% block head %}
 {{ super() }}
-
-<link rel="stylesheet" href="{{ url_for('static', filename='styles/happy-bird-style.css') }}">
-<script src="{{ url_for('static', filename='/js/svg-load.js') }}"></script>
 {% endblock %}
 
 {% block main_body %}
 
-<div class="main-wrapper">
-    <div class="svg-diagram" id="svg-diagram">
+<div class="main-container">
+    <div class="main-content">
+        <div class="slide-content">
+
+            <div class="explainer-wrapper">
+                <h1>Terraform Cloud Run Task for HCP Packer</h1>
+                <p>Validate image resources to ensure they are currently approved. Create a new
+                    iteration and update production channel.
+                </p>
+                <img src="{{ url_for('static', filename='img/uc-03-description.svg') }}" alt="TFC Run Task">
+                <span class="tooltiptext" id="tooltiptext">Image iterations and channels</span>
+            </div>
+
+        </div>
+
     </div>
 </div>
-
 {% endblock %}
 
 {% block last_page %}
